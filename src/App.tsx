@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
    
-      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/my-vite-react-app/'}>
+      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/gdoct/'}>
         <Routes>
           <Route path="/" element = {<Home/>} />  
           <Route path="/dia" element={<FinalD />} />

@@ -7,10 +7,7 @@ function Home() {
   return (
     
     <div>
-            {/* <h1 className='title'>Google</h1> */}
-            <SearchBox />
-
-             
+            <SearchBox />     
     </div>
     
   )

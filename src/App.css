@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+
+}
+ 
+
+.title {
+  font-size: 100px;
+  font-family: "Jost";
+  font-weight: 500;
+}
+.footer{
+  color: rgba(100,100,100,100);
+}
+.center{
+   display: inline-block;
+}
+.searchButtons{
+  padding-top: 20px;
+}
+
+.randomSearch{
+  margin-left: 10px;
+}
+
+.searchBox{
+  border-radius: 60px;
+  font-size: 40px;
+}
+.searchBox:hover {
+  background-color: gray;
+}
+.searchBox:focus{
+  background-color: gray;
+}
+
+.user{
+  margin-bottom: 40px;
+}
+
+.size-body{
+
+  width: 100vw;
+  height: 100vh;
+}
+
+/* keyFrames */
+
+@keyframes slideUp {
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fade {
+  0%{
+     opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+.gradient-fade{ 
+  background-image: linear-gradient(purple,white);
+  animation: fade 5s forwards ease-out ;
+}
+
+.gradient-fade-revese{ 
+  background-image: linear-gradient(purple,white);
+  animation: fade 5s reverse ease-out ;
+}
+
+
+
+
+/* Utility Classes */
+.invisible {
+  opacity: 0;
+}
+
+.slideUp{
+  animation: slideUp 1s forwards;
+}
+
+.fade-in{
+  animation: fade 3s forwards;
+}
+

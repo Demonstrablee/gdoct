@@ -1,6 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import FinalD from "./pages/FinalD"; // final diagnosis
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Home from "./pages/Home";
+// import FinalD from "./pages/FinalD"; // final diagnosis
 import "./App.css";
 
 function App() {

@@ -6,12 +6,13 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <BrowserRouter basename={'/gdoct/'}>
+      <h1>Welcome</h1>
+      {/* <BrowserRouter basename={'/gdoct/'}>
         <Routes>
           <Route path="/" element = {<Home/>} />  
           <Route path="/dia" element={<FinalD />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }

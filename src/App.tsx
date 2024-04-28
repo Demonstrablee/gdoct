@@ -6,8 +6,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-   
-      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/gdoct/'}>
+      <BrowserRouter basename={'/gdoct/'}>
         <Routes>
           <Route path="/" element = {<Home/>} />  
           <Route path="/dia" element={<FinalD />} />
